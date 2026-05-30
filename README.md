@@ -49,6 +49,7 @@ In this project:
 ### 1. Shallow MLP
 
 The MLP is a simple fully connected neural network.
+203,530 parameters
 
 Architecture:
 
@@ -67,6 +68,7 @@ The MLP treats the image as a flat vector, so it does not directly preserve spat
 ### 2. CNN
 
 The CNN uses convolutional layers to learn local spatial patterns from the image.
+421,642 parameters
 
 Architecture:
 
@@ -91,6 +93,7 @@ The CNN is well suited for image recognition because it can learn local features
 ### 3. Transformer Encoder
 
 The Transformer model treats each image as a sequence of pixels.
+134,026 parameters
 
 Architecture:
 
